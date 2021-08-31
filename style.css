@@ -60,3 +60,22 @@ ul{
     font-size: 24px;
 }
 
+table{
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+#bluebg{
+    background-color: #b1e5f2;
+}
+
+#half{   
+    width: 50%;
+}
