@@ -1,0 +1,31 @@
+*{
+    margin:0;
+}
+
+.copertina{
+    height: 175px;
+    background-image: url(./img/pattern.png);
+    background-color: #4ea0ff;
+    background-position-x: 135px;    
+}
+
+#logo{
+    height: 5rem;
+    padding-left: 30px;
+    padding-top: 75px;
+    }
+
+.title{
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+
+.autore{
+    padding-left: 1rem;
+    color: lightslategray;
+}
+
+a{
+    text-decoration: none;
+    color: #52bcea;
+}
