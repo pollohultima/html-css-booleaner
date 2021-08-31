@@ -15,13 +15,19 @@
     padding-top: 75px;
     }
 
-.title{
-    font-size: 3rem;
+.title, .autore, img, .caption, p, table, h2{
     padding-left: 1rem;
 }
 
-.autore{
-    padding-left: 1rem;
+img, p, ul, table, h2{
+    padding-top: 2rem;
+}
+
+.title{
+    font-size: 3rem;    
+}
+
+.autore{    
     color: lightslategray;
 }
 
@@ -39,32 +45,24 @@ a{
 }
 
 img{
-    height: 650px;
-    padding-left: 1rem;
-    padding-top: 2rem;
+    height: 650px;    
 }
 
-.caption{
-    padding-left: 1rem;
+.caption{    
     font-size: 20px;
 }
 
 p{
-    font-size: 24px;
-    padding-left: 1rem;
-    padding-top: 2rem;
+    font-size: 24px;    
 }
 
 ul{
-    padding-top: 2rem;
     font-size: 24px;
 }
 
 table{
     font-size: 24px;
-    text-align: justify;
-    padding-left: 1rem;
-    padding-top: 2rem;
+    text-align: justify;    
 }
 
 thead{
@@ -72,7 +70,7 @@ thead{
     color: white;
 }
 
-#bluebg{
+.bluebg{
     background-color: #b1e5f2;
 }
 
@@ -83,3 +81,34 @@ thead{
 b{
     background-color: yellow;
 }
+
+h2{    
+    font-size: 28px;
+    color: lightslategrey;
+}
+
+.mac, .graph, #mac_title, #graph_title{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.mac{    
+    height: 300px;
+    width: 390px;
+    background-image: url(./img/monitor.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.graph{     
+    height: 200px;
+    width: 390px;
+    background-image: url(./img/graph.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
