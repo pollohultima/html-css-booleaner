@@ -1,0 +1,124 @@
+*{
+    margin:0;
+}
+
+.copertina{
+    width: 100%;
+    height: 175px;
+    background-image: url(./img/pattern.png);
+    background-color: #4ea0ff;
+    background-position-x: 135px;    
+}
+
+main, #logo, footer{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+
+#logo{
+    width: auto;
+    height: 5rem;
+    padding-left: 1rem;
+    padding-top: 75px;
+    }
+
+.title, .autore, img, .caption, p, table, h2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img, p, ul, table, h2{
+    padding-top: 2rem;
+}
+
+.title{
+    font-size: 42px;    
+}
+
+.autore{    
+    color: lightslategray;
+}
+
+.writer{
+    font-size: 20px;
+}
+
+.date{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #52bcea;
+}
+
+
+img{
+    height: 400px;    
+}
+
+.caption{    
+    font-size: 16px;
+}
+
+p{
+    font-size: 20px;    
+}
+
+ul{
+    font-size: 20px;
+}
+
+table{
+    font-size: 20px;
+    text-align: justify;    
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+.bluebg{
+    background-color: #b1e5f2;
+}
+
+#half{   
+    width: 50%;
+}
+
+b{
+    background-color: yellow;
+}
+
+h2{    
+    font-size: 24px;
+    color: lightslategrey;
+}
+
+.mac, .graph, #mac_title, #graph_title{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.mac{    
+    height: 300px;
+    width: 390px;
+    background-image: url(./img/monitor.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.graph{     
+    height: 200px;
+    width: 390px;
+    background-image: url(./img/graph.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
